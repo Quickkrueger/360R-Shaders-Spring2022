@@ -59,6 +59,10 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_212374ffc19f448a843844a4396b52a1_Texture_1:
+        m_Texture: {fileID: 2800000, guid: 05687fdd25703d44eacaf81fd671cdce, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _SpecGlossMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -77,8 +81,13 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - Murkiness: 10
-    - Strength: 1
+    - Caustics_Scale: 1.591
+    - Foaminess: 4.8
+    - Murkiness: 14.3
+    - Refraction_Strength: 1.4
+    - Ripple_Scale: 4.82
+    - Speed_Multiplier: 0.643
+    - Strength: 0
     - _AlphaClip: 0
     - _Blend: 0
     - _BumpScale: 1
@@ -100,13 +109,17 @@ Material:
     - _ReceiveShadows: 1
     - _Smoothness: 0.5
     - _SmoothnessTextureChannel: 0
+    - _Specular: 20
     - _SpecularHighlights: 1
     - _SrcBlend: 1
     - _Surface: 0
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
-    - Murk_Color: {r: 0, g: 0.40039736, b: 0.5283019, a: 0}
+    - Foam_Color: {r: 0.97656244, g: 1, b: 0.89843744, a: 1}
+    - Murk_Color: {r: 0, g: 0.29411766, b: 0.23493235, a: 0.8509804}
+    - Ripple_Speed: {r: 0, g: 1, b: 0, a: 0}
+    - Surface_Color: {r: 0, g: 0.5692358, b: 0.754717, a: 0.4745098}
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}

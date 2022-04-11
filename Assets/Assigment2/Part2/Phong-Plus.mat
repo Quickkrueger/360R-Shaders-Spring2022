@@ -95,7 +95,7 @@ Material:
     m_Ints: []
     m_Floats:
     - Iridescent_Strength: 0.05
-    - Smoothness: 1.06
+    - Smoothness: 0.19
     - _AlphaClip: 0
     - _Blend: 0
     - _BumpScale: 1
