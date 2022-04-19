@@ -83,10 +83,10 @@ Material:
     m_Floats:
     - Caustics_Scale: 1.591
     - Foaminess: 4.8
-    - Murkiness: 14.3
-    - Refraction_Strength: 1.4
-    - Ripple_Scale: 4.82
-    - Speed_Multiplier: 0.643
+    - Murkiness: 13.5
+    - Refraction_Strength: 1.78
+    - Ripple_Scale: 5.86
+    - Speed_Multiplier: 0.5
     - Strength: 0
     - _AlphaClip: 0
     - _Blend: 0
