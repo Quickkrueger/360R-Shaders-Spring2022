@@ -150,11 +150,11 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - Base_Height: 1
+    - Base_Height: 0
     - Height: 1.54
     - Height_Exaggeration: 0
     - Height_Modifier: 0.8
-    - Normal_Depth: 0.201
+    - Normal_Depth: 0.519
     - _AlphaClip: 0
     - _Blend: 0
     - _BumpScale: 1
@@ -174,7 +174,7 @@ Material:
     - _Parallax: 0.005
     - _QueueOffset: 0
     - _ReceiveShadows: 1
-    - _Shininess: 8.13
+    - _Shininess: 7.02
     - _Smoothness: 0.5
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
